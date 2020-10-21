@@ -31,7 +31,7 @@
 export default {}
 </script>
 
-<style>
+<style lang='scss' scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -39,9 +39,7 @@ export default {}
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.title {
+  .title {
   font-family:
     'Quicksand',
     'Source Sans Pro',
@@ -69,5 +67,6 @@ export default {}
 
 .links {
   padding-top: 15px;
+}
 }
 </style>
