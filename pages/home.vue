@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <app-header :is_enquiry="true"></app-header>
     <div>
       <Logo />
       <h1 class="title">
@@ -28,7 +29,14 @@
 </template>
 
 <script>
-export default {}
+import AppHeader from '../components/Header';
+
+export default {
+  name: 'home',
+  components: {
+    AppHeader
+  }
+}
 </script>
 
 <style lang='scss' scoped>
